@@ -33,7 +33,7 @@ function App() {
               name="hourlyRate"
               placeholder="100"
               value={hourlyRate}
-              onChange={(e) => setHourlyRate(parseInt(e.target.value))}
+              onInput={(e) => setHourlyRate(parseInt(e.target.value))}
             />
           </label>
 
@@ -51,7 +51,7 @@ function App() {
               name="desiredHours"
               placeholder="10"
               value={desiredHours}
-              onChange={(e) => setDesiredHours(parseInt(e.target.value))}
+              onInput={(e) => setDesiredHours(parseInt(e.target.value))}
             />
           </label>
 
@@ -70,7 +70,7 @@ function App() {
               name="desiredWeeks"
               placeholder="2"
               value={desiredWeeks}
-              onChange={(e) => setDesiredWeeks(parseInt(e.target.value))}
+              onInput={(e) => setDesiredWeeks(parseInt(e.target.value))}
             />
           </label>
 
