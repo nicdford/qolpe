@@ -89,3 +89,9 @@ a  {
 .resultsContainer h2 {
   font-size: 1.5rem;
 }
+
+.small {
+  font-size: .8rem;
+  font-weight: normal;
+  margin-bottom: -1rem;
+}

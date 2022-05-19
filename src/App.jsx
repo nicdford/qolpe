@@ -15,6 +15,7 @@ function App() {
     <div class={styles.App}>
       <header class={styles.header}>
         <h1>qolpe</h1>
+        <p className={styles.small}>Quality of Life Project Estimator</p>
         <p>Because most the time you matter more than your projects.</p>
         <form>
           <label for="hourlyRate">
