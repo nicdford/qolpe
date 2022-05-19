@@ -14,8 +14,12 @@ function App() {
   return (
     <div class={styles.App}>
       <header class={styles.header}>
-        <h1>qolpe</h1>
-        <p className={styles.small}>Quality of Life Project Estimator</p>
+        <h1>qolpe </h1>
+        <p className={styles.small}>
+          (kwal·pee)
+          <br />
+          Quality of Life Project Estimator
+        </p>
         <p>Because most the time you matter more than your projects.</p>
         <form>
           <label for="hourlyRate">
